@@ -374,7 +374,7 @@ footer {
         position: relative;
         font-size: 2rem;
         font-weight: 200;
-        color: whitesmoke;
+        color: black;
         margin-top: 5rem;
         margin-left: 14rem;
         background-color: rgba(255, 255, 255, 0.3);
@@ -383,9 +383,12 @@ footer {
         word-wrap:normal;
     }
     .contact {
-        width: 350px;
-        margin-top: -30rem;
-
+        display:flex;
+        width: 490px;
+        flex-direction: column;
+        margin-top: -40rem;
+        margin-left: 13rem;
+        margin-bottom: -10rem;
     }
     .input {
         font-size: 1rem;
@@ -414,5 +417,18 @@ footer {
         border-radius: 5px;
         backdrop-filter: blur(10px);
     }
-    
+    .subtitle_contact {
+        margin-top: 15rem;
+    }
+    .contact {
+        display:flex;
+        width: 490px;
+        flex-direction: column;
+        margin-top: -40rem;
+        margin-left: 13rem;
+        margin-bottom: -10rem;
+    }
+    .submit {
+        margin-left: 14rem;
+    }
 }}
