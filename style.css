@@ -221,7 +221,7 @@ h1 {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(640px, 1fr));
     width: 70%;
-    margin-top: 12rem;
+    margin-top: 16rem;
 }
 
 textarea {
@@ -369,13 +369,12 @@ footer {
     }
     .subtitle_contact{
         justify-content: center;
-
+        margin-top: 15rem;
         width: 50%;
         position: relative;
         font-size: 2rem;
         font-weight: 200;
         color: black;
-        margin-top: 5rem;
         margin-left: 14rem;
         background-color: rgba(255, 255, 255, 0.3);
         border-radius: 5px;
@@ -396,7 +395,7 @@ footer {
     }
     .submit{
         font-size: 1.3rem;
-        margin-left: 5rem;
+        margin-left: 14rem;
     }
     footer {
         flex-direction: column-reverse;
@@ -418,15 +417,15 @@ footer {
         backdrop-filter: blur(10px);
     }
     .subtitle_contact {
-        margin-top: 15rem;
+        margin-top: 10rem;
     }
     .contact {
         display:flex;
         width: 490px;
         flex-direction: column;
-        margin-top: -40rem;
+        margin-top: -10rem;
         margin-left: 13rem;
-        margin-bottom: -10rem;
+        margin-bottom: 10rem;
     }
     .submit {
         margin-left: 14rem;
